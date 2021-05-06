@@ -1,0 +1,16 @@
+{
+    "rest_api": {
+        "path": "https://costco-tires-qa.azurewebsites.net",
+        "prefix": "/api/"
+    },
+    "msal": {
+        "redirectUrls": {
+            "path": "https://costco-tires-spa-dev.azurewebsites.net"
+        },
+        "clientId": "baf69924-4187-4dbe-a050-e6699ec81a70",
+        "tenantId": "a4431f4b-c207-4733-9530-34c08a9b2b8d"
+    },
+    "azure": {
+        "connectionString": "Endpoint=https://dev-tire-appconfigs.azconfig.io;Id=C/Yv-l2-s0:owctKhwOqvfY9fZOOr7q;Secret=WPAsbXgEVVUlRVn9rc4qDSNjaGpCW33faTWQwLizgjg="
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "In Progress":"In Progress",
+    "Completed":"Completed",
+    "Canceled":"Canceled",
+    "Scheduled":"Scheduled",
+    "search_appointment":"Search for Appointment",
+    "allDay":"All day",
+    "previous":"Previous",
+    "next":"Next",
+    "today":"Today",
+    "month":"Month",
+    "week":"Week",
+    "day":"Day",
+    "agenda":"Agenda",
+    "date":"Date",
+    "time":"Time",
+    "event":"Event",
+    "work_week":"Work Week"
+}

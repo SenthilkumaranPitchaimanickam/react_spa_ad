@@ -1,0 +1,227 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "json-server10",
+      "author": "typicode",
+      "id": 2
+    },
+    {
+      "title": "json-server9",
+      "author": "typicode",
+      "id": 3
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "bays": [
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247482",
+      "name": "Bay1"
+    },
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247483",
+      "name": "Bay2"
+    }
+  ],
+  "warehouse": [
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247484",
+      "name": "warehouse1",
+      "openingTime": "12:40",
+      "closingTime": "20:30"
+    },
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247485",
+      "name": "warehouse2",
+      "openingTime": "10:30",
+      "closingTime": "18:45"
+    }
+  ],
+  "services": [
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247486",
+      "name": "replacement",
+      "duration": "90"
+    },
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247487",
+      "name": "tire change",
+      "duration": "120"
+    }
+  ],
+  "server_time": [
+    {
+      "server_time": "12:40"
+    }
+  ],
+  "appointment": [
+    {
+      "id": "asee12sd-ad07-4104-a763-d56829270933",
+      "bay": {
+        "id": "9245fe4a-d402-451c-b9ed-9c1a04247483",
+        "name": "Bay2"
+      },
+      "warehouse": {
+        "id": "9245fe4a-d402-451c-b9ed-9c1a04247485",
+        "name": "Warehouse2"
+      },
+      "service": {
+        "id": "9245fe4a-d402-451c-b9ed-9c1a04247487",
+        "name": "Tire change"
+      },
+      "date": "2021-01-31T00:00:00.7251173Z",
+      "startTime": "10.15AM",
+      "duration": "240",
+      "scheduleType": {
+        "id": "1",
+        "value": "schduled"
+      },
+      "orderNumber": "123",
+      "confirmationNumber": "kjk",
+      "specialinstruction": "kjhjhj",
+      "appointmentnotes": "kjkjkjk jk ",
+      "member": {
+        "firstname": "Sunny",
+        "lastname": "Mathews",
+        "phone": "9446474014",
+        "email": "sunny.mathews@ust-global.com",
+        "memberId": "9245fe4a-d402-451c-b9ed-9c1a04247432"
+      }
+    }
+  ],
+  "members": [
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247489",
+      "member_id": "#1234",
+      "first_name": "James",
+      "last_name": "Joe",
+      "email": "costco@gmail.com",
+      "mobile": "12345688"
+    },
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247490",
+      "member_id": "#1235",
+      "first_name": "Anil",
+      "last_name": "Baby",
+      "email": "aaaa@gmail.com",
+      "mobile": "12388888"
+    },
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247491",
+      "member_id": "#11124",
+      "first_name": "Zoe",
+      "last_name": "Mathew",
+      "email": "nnnn@gmail.com",
+      "mobile": "55545688"
+    },
+    {
+      "id": "9245fe4a-d402-451c-b9ed-9c1a04247492",
+      "member_id": "#12141434",
+      "first_name": "Nipun",
+      "last_name": "Nair",
+      "email": "pppp@gmail.com",
+      "mobile": "127777688"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "notifications": [
+    {
+      "id": 1,
+      "status": "SCHEDULED",
+      "Date": "16-02-2021",
+      "Time": "10 am",
+      "ordernumber": 123456,
+      "warehouse": "Warehouse1",
+      "bay": "Bay1",
+      "read": true,
+      "services": "Tire repair",
+      "timestamp": 1612195049
+    },
+    {
+      "id": 2,
+      "status": "CANCELLED",
+      "Date": "22-02-2021",
+      "Time": "9 am",
+      "ordernumber": 123789033,
+      "warehouse": "Warehouse2",
+      "bay": "Bay1",
+      "read": true,
+      "services": "Tire repair",
+      "timestamp": 1612194284
+    },
+    {
+      "id": 3,
+      "status": "SCHEDULED",
+      "Date": "22-02-2021",
+      "Time": "9 am",
+      "ordernumber": 123789033,
+      "warehouse": "Warehouse2",
+      "bay": "Bay2",
+      "read": false,
+      "services": "Tire repair",
+      "timestamp": 1612194284
+    },
+    {
+      "id": 4,
+      "status": "CANCELLED",
+      "Date": "22-02-2021",
+      "Time": "9 am",
+      "ordernumber": 123789033,
+      "warehouse": "Warehouse1",
+      "bay": "Bay2",
+      "read": false,
+      "services": "Tire repair",
+      "timestamp": 1612194284
+    }
+  ],
+  "dashboard": [
+    {
+      "bayId": "6405b6c4-c9e2-48db-954b-f309b596fef9",
+      "bayName": "Bay 1",
+      "accessType": "Location 10",
+      "displayToCustomer": "Yes",
+      "sortOrder": 1,
+      "status": "Active",
+      "warehouseId": "1",
+      "appointments": [
+        {
+          "appointmentId": "f5f648e1-ad07-4104-a763-d56829270933",
+          "bayId": "6405b6c4-c9e2-48db-954b-f309b596fef9",
+          "warehouseId": "1",
+          "serviceId": "517f8baa-5f2b-4151-b2d2-0dadcf5140b8",
+          "date": "2021-01-31T00:00:00.7251173Z",
+          "startTime": "10.15AM",
+          "endTime": "11.15AM",
+          "status": "Scheduled",
+          "orderNumber": 123,
+          "confirmationNumber": "",
+          "specialInstruction": "",
+          "appointmentNotes": "",
+          "customerId": "1"
+        }
+      ]
+    },
+    {
+      "bayId": "4210cdca-c522-4177-92e9-3bd9f5f28c29",
+      "bayName": "Bay 2",
+      "accessType": "Location",
+      "displayToCustomer": "Yes",
+      "sortOrder": 2,
+      "status": "Active",
+      "warehouseId": "1",
+      "appointments": []
+    }
+  ]
+}

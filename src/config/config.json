@@ -1,0 +1,16 @@
+{
+    "rest_api": {
+        "path": "https://costco-tires-dev.azurewebsites.net",
+        "prefix": "/api/"
+    },
+    "msal": {
+        "redirectUrls": {
+            "path": "https://lemon-stone-0848c4910.azurestaticapps.net"
+        },
+        "clientId": "7685aa94-8218-45dd-b88b-d94fc3fc3835",
+        "tenantId": "2f37a5b7-afdf-4b63-a1ad-985f46f3f224"
+    },
+    "azure": {
+        "connectionString": "Endpoint=https://dev-tire-appconfigs.azconfig.io;Id=C/Yv-l2-s0:owctKhwOqvfY9fZOOr7q;Secret=WPAsbXgEVVUlRVn9rc4qDSNjaGpCW33faTWQwLizgjg="
+    }
+}

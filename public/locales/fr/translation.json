@@ -1,0 +1,15 @@
+{
+  "dashboard":"TABLEAU DE BORD",
+  "appointments":"RENDEZ-VOUS",
+  "members":"MEMBRES",
+  "reports":"RAPPORTS",
+  "bays":"BAIES",
+  "services":"PRESTATIONS DE SERVICE",
+  "events":"ÉVÉNEMENTS",
+  "completed_customers":"CLIENTS COMPLÉTÉS",
+  "view_scheduled_time":"Afficher l'heure programmée",
+  "make_appointment":"Prendre rendez-vous",
+  "view_waiting_list":"Afficher la liste d'attente",
+  "recurring_reserve_maintenance":"Maintenance récurrente des réserves",
+  "get_time":"Obtenir du temps"
+  }

@@ -1,0 +1,92 @@
+
+  .notificationsBox {
+    border: solid 1px #bbb;
+    border-radius: 6px;
+  }
+  .notifTitle {
+    color: #3071a9;
+    font-size: 12px;
+    border-bottom: solid 1px #EFEFEF;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-top: 7px;
+  }
+  .notifItemsBox {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 12px;
+    padding-top: 13px;
+    min-width: 220px;
+  }
+  .notifItemsBox li {
+    border-bottom: solid 1px #EFEFEF;
+    padding: 0 20px 10px;
+    min-height: 33px;
+    color: #333;
+    /* display: flex; */
+    align-items: center;
+  }
+  .notificationBell.dropdown-toggle::after {
+    display: none;
+  }
+  .viewAll {
+    color: #3071a9;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 75px;
+  }
+  .viewAll a {
+    color: #3071a9;
+    font-size: 12px;
+    text-align: center;
+  }
+  .notifPageTitle {
+    border-bottom: solid 1px #95989A;
+    color: #0060A9;
+    font-size: 14px;
+    /*  padding-left: 10px;*/
+    padding-bottom: 10px;
+  }
+  .notifInner {
+    position: relative;
+    margin-right: 25px;
+  }
+  a.notifInner {
+    text-decoration: none;
+    color: #0060A9;
+  }
+  .notifInner.active:after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    height: 2px;
+    width: 100%;
+    background-color: #0060A9;
+  }
+  .notifContentWrapper {
+    padding-left: 25px;
+    padding-bottom: 15px;
+  }
+  .notifItemBox {
+    text-align: left;
+    margin-top: 30px;
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  .memberName {
+    color: #0060A9;
+  }
+  /*General styles */
+  .m-r10 {
+    margin-right: 10px !important;
+  }
+  .m-r100 {
+    margin-right: 6rem !important;
+  }
+  .p0 {
+    padding: 0;
+  }
+  .nodata{
+    text-align: center;
+  }

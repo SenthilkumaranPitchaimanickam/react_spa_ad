@@ -1,0 +1,15 @@
+{
+	"dashboard":"DASHBOARD",
+  "appointments":"APPOINTMENTS",
+  "members":"MEMBERS",
+  "reports":"REPORTS",
+  "bays":"BAYS",
+  "services":"SERVICES",
+  "events":"EVENTS",
+  "completed_customers":"COMPLETED CUSTOMERS",
+  "view_scheduled_time":"View Scheduled Time",
+  "make_appointment":"Make An Appointment",
+  "view_waiting_list":"View Waiting List",
+  "recurring_reserve_maintenance":"Recurring Reserve Maintenance",
+  "get_time":"Get Time"
+  }

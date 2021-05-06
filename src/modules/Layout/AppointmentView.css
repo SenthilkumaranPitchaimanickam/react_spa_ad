@@ -1,0 +1,10 @@
+.calendarBoxSection {
+	background-color: #eff7fb;
+}
+.calendarWrapper {
+	padding: 34px 42px;
+}
+
+.datePickerRow {
+	margin: 12px 0 12px 0;
+}

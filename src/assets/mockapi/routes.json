@@ -1,0 +1,3 @@
+{
+    "/members\\?first-name=:id": "/members/:id"
+}
